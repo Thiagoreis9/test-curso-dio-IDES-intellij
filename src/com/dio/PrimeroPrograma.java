@@ -7,10 +7,12 @@ public class PrimeroPrograma {
 	public static void main(String[] args) {
 
 		Gato gato = new Gato("nora","branco",5);
+		Gato et = new Gato("etzinha","cinza", 6);
 		Livros livros = new Livros("Biblia",2001);
 		
-		System.out.println(gato);
-		System.out.println(livros);
+		System.out.println(gato.nome);
+		System.out.println(livros.nome);
+		System.out.println(et.nome);
 	}
 }
 	
